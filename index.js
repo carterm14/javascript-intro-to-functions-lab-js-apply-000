@@ -11,17 +11,11 @@ const logShout = string => {
 }
 
 const logWhisper = string => {
-  return console.log(string.toUpperCase());
+  return console.log(string.toLowerCase());
 }
 
-const shout = string => {
-  return string.toUpperCase();
-}
-
-const shout = string => {
-  return string.toUpperCase();
-}
-
-const shout = string => {
-  return string.toUpperCase();
+const sayHiToGrandma = string => {
+  if(string === 'I love you, Grandma.') return "I love you, too."
+  if (string === string.toLowerCase()) return "I can't hear you!"
+  else if (string === string.toUpperCase()) return "YES INDEED!"
 }
